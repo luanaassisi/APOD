@@ -1,26 +1,40 @@
-body{
+body {
     background-image: url(../img/sistemaSolar.jpg);
     background-size: 300px;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-position-x: right;
-    background-color:black;
-
+    background-color: black;
+    font-family: 'Codystar', cursive;
+    
 }
 
-form{
-    background: rgba(27, 19, 19, 0.172);
+form {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 5px;
     border: 1px solid;
-   
-}
-
-.center {
     text-align: center;
     padding: 30px;
 
 }
-h1, h2, h3{
+
+
+.center {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1,
+h2,
+h3 {
     color: antiquewhite;
+}
+
+button {
+    margin-top: 30px;
+
 }
