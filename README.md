@@ -1,7 +1,7 @@
 ## Projeto APOD - Instrução do projeto
 
-#### Neste projeto deveremos criar uma aplicação capaz de realizar uma requisição para esta API com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com descrição obtida.
-### Conhecimento a ser utilizado:
+#### Neste projeto devemos criar uma aplicação capaz de realizar uma requisição para a API com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com a descrição obtida.
+### Conhecimento à ser utilizado:
 
 * HTML;
 * CSS;
