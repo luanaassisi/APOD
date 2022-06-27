@@ -10,18 +10,18 @@ $("#enviar").click(function (e) {
             console.log(obj);
             $("#titulo").text(obj.title);
             $("#img").attr("src", obj.url);
-            //if (media_type == "imagem") {
-            //   $("#video").css("display", "none")
-            //    $("#img").css("display", "block")
-            //    $("#img").attr("src", obj.url);
-            // } else {
-            //    $("#img").css("display", "none")
-            //    $("#video").css("display", "block")
-            //    $("#video").attr("src", obj.url);
+            if (obj.media_type == "image") {
+                $("#video").css("display", "none");
+                $("#img").css("display", "flex");
+                $("#img").attr("src", obj.url);
+            } else {
+                $("#img").css("display", "none");
+                $("#video").css("display", "flex");
+                $("#video").attr("src", obj.url);
 
-            //}
+            }
             $("#descricao").text(obj.explanation);
-            $("#data").date(obj.date);
+            $("#data").text(obj.date);
         },
         error: function (erro) {
             $("#titulo").text("erro");
