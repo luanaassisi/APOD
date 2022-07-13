@@ -7,7 +7,8 @@
 * CSS;
 * JavaScript;
 * JQuery.
-* Requisitos:
+
+### Requisitos:
 
  A aplicação deve ser capaz de receber uma data como entrada do usuário a partir de um formulário.
  Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser enviada à API da APOD para que seja obtida a foto ou vídeo referente ao dia escolhido.
